@@ -42,7 +42,7 @@ body {
 .header__descrip {
     position: absolute;
     width: 1122px;
-    margin: 620px 194px 0 194px;
+    margin: 620px auto 0 ;
     padding: 14px 25px 16px 45px;
     border-radius: 20px;
     background: #FFF6EC;
@@ -237,7 +237,7 @@ main .footer p{
 
     .header__descrip {
         width: 740px;
-        margin: 430px 83px 0 83px;
+        margin: 430px auto 0;
         padding: 14px 2px 16px 45px;
         font-size: 27px;
         line-height: 45px;
@@ -321,7 +321,7 @@ main .footer p{
 
     .header__descrip {
         width: 590px;
-        margin: 360px 50px 0 50px;
+        margin: 360px auto 0;
         padding: 14px 20px 16px 30px;
         font-size: 23px;
         line-height: 40px;
@@ -416,7 +416,7 @@ main .footer p{
 
     .header__descrip {
         width: 374px;
-        margin: 280px 40px 0 40px;
+        margin: 280px auto 0;
         padding: 14px 15px 16px 20px;
         font-size: 15px;
         line-height: 28px;
@@ -496,7 +496,7 @@ main .footer p{
     .header__descrip {
         position: absolute;
         width: 301px;
-        margin: 148px 10px 0 10px;
+        margin: 148px auto 0;
         padding: 12px 2px 12px 12px;
         font-size: 11px;
         line-height: 20px;
