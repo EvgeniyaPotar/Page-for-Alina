@@ -30,6 +30,7 @@ body {
    
     display: flex;
     justify-content: center;
+    align-items: center;
    
 }
 
@@ -72,14 +73,14 @@ main .content_text{
     padding: 51px 49px 51px 57px;
     background: #A39183;
     border-radius: 20px;
+    max-width: 1510px;
    
 }  
 
 
 
 main .content_text li {
-    /* font-size: 48px; */
-    font-size: 3.28vw;
+    font-size: 48px;
     white-space: nowrap;
     line-height: 58px;
     
@@ -129,8 +130,7 @@ ul.list_sub-list > li{
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
-    /* font-size: 46px; */
-    font-size: 3vw;
+    font-size: 44px;
     white-space: nowrap;
     line-height: 56px;
 }
@@ -202,7 +202,16 @@ main .footer p{
     box-shadow: 6px 4px 20px rgba(218, 206, 195, 0);
 }
 
+@media (max-width: 1500px) {
+    main .content_text li {
+        font-size: 3.27vw;
+    }
 
+    ul.list_sub-list > li {
+        font-size: 3vw;;
+    }
+    
+}
 
 @media (max-width: 1320px) {
     body {
