@@ -227,7 +227,7 @@ main .footer p{
 
     .photo{
         width: 100%;
-        max-width: 350px;
+        max-width: 340px;
     }
 
     .header__photo{
@@ -239,26 +239,26 @@ main .footer p{
         width: 740px;
         margin: 430px auto 0;
         padding: 14px 2px 16px 45px;
-        font-size: 27px;
-        line-height: 45px;
+        font-size: 24px;
+        line-height: 40px;
     }
 
     
     main .content_text{
-        margin: 189px 83px 0 83px;
+        margin: 169px auto 0;
         padding: 46px 44px 46px 52px;
     }
 
     h1 {
-        font-size: 38px;
+        font-size: 34px;
         line-height: 50px;
         padding-bottom: 36px;
     }
 
     main .content_text li {
         /* font-size: 40px; */
-        font-size: 2.8vw;
-        line-height: 48px;
+        font-size: 2.65vw;
+        line-height: 35px;
         
     }
 
@@ -267,10 +267,11 @@ main .footer p{
     
     }
 
+
     ul.list_sub-list > li{
         /* font-size: 36px; */
         font-size: 2.1vw;
-        line-height: 44px;
+        line-height: 35px;
     }
 
     .hide::before,
